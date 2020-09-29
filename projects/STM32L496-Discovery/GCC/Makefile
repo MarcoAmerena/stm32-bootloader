@@ -44,7 +44,7 @@ $(wildcard ../../../lib/fatfs/*.c) \
 $(wildcard ../../../drivers/STM32L4xx_HAL_Driver/Src/*.c)
 
 # Toolchain ####################################################################
-CUSTOMPATH = "C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/bin"
+CUSTOMPATH = ~/Downloads/gcc-arm-none-eabi-8-2019-q3-update/bin
 PREFIX = arm-none-eabi-
 # The gcc compiler bin path can be either defined in make command via GCC_PATH variable (> make GCC_PATH=xxx)
 # either it can be added to the PATH environment variable.
